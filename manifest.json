@@ -1,0 +1,47 @@
+{
+  "id": "code-runner",
+  "name": "Code Runner",
+  "description": "Run C, C++, Python, JavaScript etc. code instantly.",
+  "version": "1.0.4",
+  "category": "Other",
+  "tags": [
+    "run",
+    "execute",
+    "c",
+    "cpp",
+    "python",
+    "javascript",
+    "java",
+    "go",
+    "php",
+    "ruby"
+  ],
+  "icon": "icon/runner.png",
+  "iconColor": "#22222200",
+  "main": "dist/main.js",
+  "source": "main.js",
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "license": "info/LICENSE.txt",
+  "activates": [
+    "onLanguage:python",
+    "onLanguage:javascript",
+    "onLanguage:c",
+    "onLanguage:cpp",
+    "onLanguage:java",
+    "onLanguage:go",
+    "onLanguage:rust",
+    "onLanguage:ruby",
+    "onLanguage:php"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "id": "coderunner.run",
+        "title": "Run Code",
+        "icon": "play"
+      }
+    ],
+    "configuration": "settings.json"
+  }
+}

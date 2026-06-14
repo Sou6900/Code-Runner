@@ -1,0 +1,20 @@
+{
+	"coderunner.clearPreviousOutput": {
+    "type": "boolean",
+    "default": true,
+    "title": "Clear Previous Output",
+    "description": "Whether to clear previous output before each run."
+  },
+  "coderunner.saveFileBeforeRun": {
+    "type": "boolean",
+    "default": true,
+    "title": "Save File Before Run",
+    "description": "Automatically save the active file before running."
+  },
+  "coderunner.runInTerminal": {
+    "type": "boolean",
+    "default": false,
+    "title": "Run In Terminal",
+    "description": "Whether to run code in Integrated Terminal instead of Output panel (Allows user input)."
+  }
+}

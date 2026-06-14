@@ -1,0 +1,19 @@
+{
+  "name": "code-runner",
+  "version": "1.0.0",
+  "description": "A Mono Studio extension.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node .mscode/msce.js build",
+    "watch": "node .mscode/msce.js watch",
+    "package": "node .mscode/msce.js package",
+    "publish": "node .mscode/msce.js publish"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "archiver": "^7.0.0",
+    "prompts": "^2.4.2",
+    "semver": "^7.6.0"
+  }
+}
