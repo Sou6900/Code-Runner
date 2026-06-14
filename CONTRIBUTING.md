@@ -2,15 +2,21 @@
 
 > Before you begin, ensure you have Node.js (version 20.0 or higher) and npm installed on your system. You can verify this by running the following commands in your terminal:
 
+```
 npm install -g @monostudio/msce
+```
 
 ## To continue existing project
 
+```
 msce init
+```
 
 ## To create a new ms-ext template 
 
+```
 msce
+```
 
 ## Post Generation Workflow
 
